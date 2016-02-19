@@ -570,17 +570,17 @@ th {
       color: #00CDAF;
       max-width: 166px;
       display: block;
-      font-weight: 300;
+      font-weight: bold;
       font-size: 18px; }
       @media (min-width: 768px) {
         .profile .text .title {
           font-size: 20px;
           max-width: 216px; } }
     .profile .text .subtitle {
-      color: #00CDAF;
+      color: #80CDAF;
       max-width: 166px;
       display: block;
-      font-weight: 300;
+      font-weight: bold;
       font-size: 16px; }
       @media (min-width: 768px) {
         .profile .text .subtitle {
