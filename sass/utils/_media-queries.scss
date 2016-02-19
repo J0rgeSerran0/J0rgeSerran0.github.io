@@ -1,0 +1,28 @@
+$mq-tablet-width: 768px;
+$mq-desktop-width: 1024px;
+
+
+
+@mixin mq-tablet-and-up{
+  @media (min-width: #{$mq-tablet-width}){
+    @content;
+  }
+}
+
+@mixin mq-mobile{
+  @media (max-width: #{$mq-tablet-width - 1} ){
+    @content;
+  }
+}
+
+@mixin mq-tablet {
+  @media (min-width: #{$mq-tablet-width}) and (max-width: #{$mq-desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin mq-desktop {
+  @media (min-width: #{$mq-desktop-width}) {
+    @content;
+  }
+}

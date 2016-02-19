@@ -1,0 +1,30 @@
+.social-buttons{
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      font-size: 20px;
+      display: inline-block;
+      cursor: pointer;
+
+      a {
+        color:  $primary-color;
+        transition: color .3s;
+
+        &:hover{
+          color: $white;
+        }
+      }
+
+      span i:first-child{
+        
+        color: $secondary-color;
+        font-size: 35px;
+      }
+      
+    }
+  }
+}

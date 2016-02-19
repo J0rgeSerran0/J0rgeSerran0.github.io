@@ -1,0 +1,48 @@
+.main-landing{
+  $defaultPadding: 10px;
+  background-image: url('/img/bg.jpg');
+  background-size: cover;
+
+  &-container{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 100%;
+    background-color: $primary-color;
+    background-color: rgba($primary-color, 0.8);
+    justify-content: space-between;
+    
+    header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: $defaultPadding;
+    }
+    
+    .container{
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      padding: $defaultPadding;
+    }
+    
+    footer{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      padding: $defaultPadding;
+      font-size: 16px;
+      span{
+        font-weight: 300;
+      }
+      strong{
+        color: $secondary-color;
+      }
+      
+    }
+    
+  }
+  
+
+}
